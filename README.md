@@ -12,7 +12,7 @@ in this step the main accomplishment is to learn CSS and HTML basic, also some o
 <details>
 <summary><strong>- 30 July 2026</strong></summary>
 
-## Apllying my GIT knowledge
+## Aplying my GIT knowledge
 <hr>
 First thing that I learned to using git. The thing that I learned:
 
@@ -42,7 +42,7 @@ Here some stuff that I learn:
     set CSS attribute directly in tag property
     2.  style element<br>
     creating style tag on the head tag
-    3.  External stylesheet
+    3.  External stylesheet<br>
     adding new style.css file outside html file, so it can be used by another html page by using link tag
 
 2.  CSS rules
