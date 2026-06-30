@@ -9,7 +9,7 @@ In this readme is a journey how I manage creativity idea for this website, since
 
 First Step
 <details>
-<summary>30 July 2026</summary>
+<summary><strong>- 30 July 2026</strong></summary>
 
 ## Apllying my GIT knowledge
 <hr>
@@ -63,6 +63,7 @@ here some stuff I reviewed:
     2. inline element
     only the content of tag, so it can placed in parallel of the paragraph. you can wrap the content using `<span>`
 </details>
+<hr>
 
 
 
