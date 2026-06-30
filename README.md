@@ -3,18 +3,22 @@
 ## what inside?
 
 this project meant purely for learning purposes. this is where I start to make a website. 
-In this readme is a journey how i manage creativity idea for this website, since i have no idea what web is this gonna be. Tho if i have no idea, i just writedown journey of my learning.
+In this readme is a journey how I manage creativity idea for this website, since I have no idea what web is this gonna be. Tho if I have no idea, I just writedown journey of my learning.
 
+# Basic Vanilla Learning journey
+
+First Step
 <details>
 <summary>30 July 2026</summary>
 
 ## Apllying my GIT knowledge
-First thing that i learned to using git. The thing that i learned:
-1. After i create branch css-basic i can push directly to main. 
-So ater acknowledge that i can push from branch directly to main, i need more CAREFUL for push the progress that i made in branch
+First thing that I learned to using git. The thing that I learned:
+1. After I create branch css-basic I can push directly to main. 
+So ater acknowledge that I can push from branch directly to main, I need more CAREFUL for push the progress that I made in branch
+
 
 ## Learning Basic CSS
-About 2 years ago actually i have learn about HTML and CSS basic. Tho I haven't applied it yet so i think i am gonna re-learn from zero.
+About 2 years ago actually I have learn about HTML and CSS basic. Althogh I haven't applied it yet so I think I am gonna re-learn from zero.
 Here some stuff that I learn:
 
 1.  Three way for using CSS
@@ -31,6 +35,15 @@ selector {
     property: value;
 }
 ```
+
+## Review about HTML
+after progressing about 1 hour on learning CSS, I forgot how to use HTML properly
+here some stuff I reviewed:
+1.  type of HTML element
+    1.  block level
+    taking every space in the line of the tag. you can wrap the content as <div>
+    2. inline element
+    only the content of tag, so it can placed in parallel of the paragraph. you can wrap the content using <span>
 </details>
 
 
