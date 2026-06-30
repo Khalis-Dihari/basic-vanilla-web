@@ -54,6 +54,21 @@ note that every CSS property using by semi colon ';' as separator for each prope
 <strong>---Jangan lupa titik koma---</strong><br>
 dont forget semi colon
 
+3.  Font
+user agent stylesheet sample (default style) for h1 on chrome
+```css
+h1 {
+    display: block; /*make h1 as block level for html*/
+    font-size: 2em; /*Relative size 'em': for responsive page*/
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px; /*absolute size using px*/
+    margin-inline-end: 0px;
+    font-weight: bold; 
+    unicode-bidi: isolate;
+}
+```
+
 ## Review about HTML
 after progressing about 1 hour on learning CSS, I forgot how to use HTML properly
 here some stuff I reviewed:
