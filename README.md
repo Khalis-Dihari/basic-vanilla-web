@@ -3,14 +3,14 @@
 ## what inside?
 
 this project meant purely for learning purposes. this is where I start to make a website. 
-In this readme is a journey how I manage creativity idea for this website, since I have no idea what web is this gonna be. Tho if I have no idea, I just writedown journey of my learning.
+In this readme is a journey how I manage creativity idea for this website, since I have no idea what web is this gonna be. Tho if I have no idea, I just writedown journey of my learning.<br>
 
 # Basic Vanilla Learning journey
 
 First step of learning. based on module in codepolitan kelas fullstack.<br>
 in this step the main accomplishment is to learn CSS and HTML basic, also some of the GIT usage.
 <details>
-<summary><strong>- 30 July 2026</strong></summary>
+<summary><strong>30 June 2026</strong></summary>
 
 ## Aplying my GIT knowledge
 <hr>
@@ -31,7 +31,7 @@ build: update dependency ZXing
 ci: tambah workflow build Android
 ```
 
-
+<br>
 ## Learning Basic CSS
 <hr>
 About 2 years ago actually I have learn about HTML and CSS basic. Althogh I haven't applied it yet so I think I am gonna re-learn from zero.
@@ -69,8 +69,8 @@ h1 {
     unicode-bidi: isolate;
 }
 ```
-
-## Review about HTML
+<br>
+## Review about HTML<hr>
 after progressing about 1 hour on learning CSS, I forgot how to use HTML properly
 here some stuff I reviewed:
 1.  type of HTML element
