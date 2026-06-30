@@ -41,9 +41,9 @@ after progressing about 1 hour on learning CSS, I forgot how to use HTML properl
 here some stuff I reviewed:
 1.  type of HTML element
     1.  block level
-    taking every space in the line of the tag. you can wrap the content as <div>
+    taking every space in the line of the tag. you can wrap the content as `<div>`
     2. inline element
-    only the content of tag, so it can placed in parallel of the paragraph. you can wrap the content using <span>
+    only the content of tag, so it can placed in parallel of the paragraph. you can wrap the content using `<span>`
 </details>
 
 
