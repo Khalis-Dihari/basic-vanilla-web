@@ -36,7 +36,7 @@ selector {
 }
 ```
 note that every CSS property using by semi colon ';' as separator for each property<br>
-<strong>Jangan lupa titik koma</strong>
+<strong>---Jangan lupa titik koma---</strong><br>
 dont forget semi colon
 
 ## Review about HTML
