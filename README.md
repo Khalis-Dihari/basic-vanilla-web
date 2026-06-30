@@ -7,7 +7,8 @@ In this readme is a journey how I manage creativity idea for this website, since
 
 # Basic Vanilla Learning journey
 
-First Step
+First step of learning. based on module in codepolitan kelas fullstack.<br>
+in this step the main accomplishment is to learn CSS and HTML basic, also some of the GIT usage.
 <details>
 <summary><strong>- 30 July 2026</strong></summary>
 
