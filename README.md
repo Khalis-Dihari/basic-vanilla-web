@@ -32,6 +32,7 @@ ci: tambah workflow build Android
 ```
 
 <br>
+
 ## Learning Basic CSS
 <hr>
 About 2 years ago actually I have learn about HTML and CSS basic. Althogh I haven't applied it yet so I think I am gonna re-learn from zero.
@@ -70,7 +71,9 @@ h1 {
 }
 ```
 <br>
-## Review about HTML<hr>
+
+## Review about HTML
+<hr>
 after progressing about 1 hour on learning CSS, I forgot how to use HTML properly
 here some stuff I reviewed:
 1.  type of HTML element
