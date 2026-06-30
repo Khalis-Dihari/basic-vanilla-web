@@ -14,7 +14,7 @@ First Step
 ## Apllying my GIT knowledge
 First thing that I learned to using git. The thing that I learned:
 1. After I create branch css-basic I can push directly to main. 
-So ater acknowledge that I can push from branch directly to main, I need more CAREFUL for push the progress that I made in branch
+So after acknowledge that I can push from branch directly to main, I need more CAREFUL for push the progress that I made in branch
 
 
 ## Learning Basic CSS
@@ -35,6 +35,9 @@ selector {
     property: value;
 }
 ```
+note that every CSS property using by semi colon ';' as separator for each property
+<strong>Jangan lupa titik koma</strong>
+dont forget semi colon
 
 ## Review about HTML
 after progressing about 1 hour on learning CSS, I forgot how to use HTML properly
