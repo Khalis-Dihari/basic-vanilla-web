@@ -35,7 +35,7 @@ selector {
     property: value;
 }
 ```
-note that every CSS property using by semi colon ';' as separator for each property
+note that every CSS property using by semi colon ';' as separator for each property<br>
 <strong>Jangan lupa titik koma</strong>
 dont forget semi colon
 
