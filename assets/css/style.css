@@ -33,3 +33,36 @@ div ul li { /* This will select all li elements that are inside a ul element, wh
 div ul li a { /* This will select all a elements that are inside an li element, which is inside a ul element, which is inside a div element */
     color: green;
 }
+
+.section1  p{
+    background-color: lightblue;
+}
+
+.section2  p{
+    background-color: lightcoral;
+}   
+
+.section3 > h3{
+    background-color: lightyellow;
+}   
+
+input[type="text"] {
+    border: 2px solid black;
+    padding: 5px;
+    color: darkblue;
+}
+
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+p:nth-last-child(2) {
+    color: purple;
+} /* This will select the second-to-last p element in its parent container and apply the specified styles to it. */
+
+
+h3::first-letter {
+    font-size: 2em;
+    color: darkred;
+} /* This will select the first letter of all h3 elements and apply the specified styles to it. */

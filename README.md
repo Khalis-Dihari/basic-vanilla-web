@@ -115,6 +115,7 @@ here some stuff I reviewed:
 In this section will be covering some of the modules
 
 - Selector And how it works
+- Box Model CSS
 
 <details>
 <summary><strong>02 July 2026</strong></summary>
@@ -180,7 +181,127 @@ in CSS you can use:
 ```
 so it mark everyy tag based on it's CSS property
 
-3.  
+4.  <strong>Descendent Selector</strong>
+-   <strong>Descendant</strong>
+Descendant in CSS where you  are changing CSS property based on html structure you have. It can be tag inside a tag or using id or class.
+example:
+
+```css
+div h2 { 
+    color: blue;
+}
+```
+then you have html with two h2 like this
+
+```html
+<h2> this h2 outside div <h2>
+<div>
+    <h2>this h2 inside div</h2>
+</div>
+```
+the selector from css only changes for h2 inside div based on descendent selector.
+-   <strong>Direct Descendent</strong>
+there is a case when you have more html structure, here some example:
+```html
+<h1>header 1</h1>
+
+<div>
+    <h1> h1 inside div</h1> <!-- Only this will changes -->
+    <div> 
+        <h1>header 1 inside div, that inside div</h1>
+    </div>
+    <h1> h1 inside div, below another div inside same div</h1> <!-- also this will changes -->
+</div>
+```
+in case you want to specific to change of property h1 inside dif you can use direct descendant
+
+```css
+div > h1 {
+    color: blue;
+}
+```
+it will only changes for only h1 directly inside div, so the h1 inside the div, that inside div again, will not changes.
+
+-   <strong>Attribute Selector</strong>
+attribute selector is where you want to select tag that have specific attribute that it have example in html you have:
+
+```html
+<input type="text" placeholder="Input text">
+    <input type="password" placeholder="Input password">
+```
+than you want to only changes for input that have attribute `type`
+
+```css
+input[type="text"]
+```
+it only changes the input that have attribut `type="text"`
+
+there is another attribute selector documentation you can check on [AttributeSelector] (https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors)
+
+-   <strong>Pseudo Classes</strong>
+pseudo classes is a keyword to a selector where it specified for special state for example I am using pseudo class `:hover` for:
+
+```html
+<button>Tombol</button>
+```
+in css i can use special state to change css property:
+
+```css
+button:hover{
+    background-color: blue;
+}
+```
+or if i have html with many header
+
+```html
+<h1>First</h1>
+<h1>Second</h1>
+<h1>Third</h1>
+<h1>Fourth</h1>
+<h1>Fifth</h1>
+```
+you can use pseudo class selector for every h1 on the order multiply of 2
+
+```css
+h1:nth-last-child(2){
+    color: gray;
+}
+```
+
+-   <strong>Pseudo Elements</strong>
+A CSS pseudo-element is a keyword added to a selector that allows you to style a specific part of an HTML element. 
+example you have many `h3`
+
+```html
+<h1>First</h1>
+<h1>Second</h1>
+<h1>Third</h1>
+<h1>Fourth</h1>
+<h1>Fifth</h1>
+```
+you want to change the first letter of each h3 to bold
+
+```css
+h3::first-letter{
+    font-weight: Bold;
+}
+```
+the result will be
+<strong>F</strong>irst
+<strong>S</strong>econd
+<strong>T</strong>hird
+<strong>F</strong>ourth
+<strong>F</strong>ifth
+
+there are many more CSS selector type, you can see the documentation on [CSS-SelectorDocumentation] (https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors)
+
+</details>
+
+<details style="margin-left: 20px;">
+<summary><strong>Box Model CSS</strong></summary>
+
+
+
 </details>
 
 </details>
