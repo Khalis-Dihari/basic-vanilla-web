@@ -66,3 +66,19 @@ h3::first-letter {
     font-size: 2em;
     color: darkred;
 } /* This will select the first letter of all h3 elements and apply the specified styles to it. */
+
+.box {
+    /* content area */
+    background-color: lightblue;
+
+    /* padding = jarak antara content dan border */
+    padding: 10px 20px 10px 20px;
+
+    /* border = garis pembatas */
+    border: 10px 30px solid blue;
+
+    /* margin = jarak antar element */
+    margin: 40px;
+
+    width: 200px;
+}

@@ -299,9 +299,27 @@ there are many more CSS selector type, you can see the documentation on [CSS-Sel
 
 <details style="margin-left: 20px;">
 <summary><strong>Box Model CSS</strong></summary>
+The content showed on web is on a box. The box has structure for the display the property, the order of structure is:
 
+```
+margin --> border --> padding --> property display
+```
+-   property display
+Property display is the content you want to display, such as `<p>` or other
+-   padding
+padding is something beetween border and property display, if you change the `background-color` it change from background of padding, it is include the background from property display, since property display is on the padding.
+-   border
+border can be line to seperate the padding to margin. it can be visible or invisible
+-   margin
+it is space between the entire content to another content<br>
+<strong>Note</strong> that one content margin cannot be overlapping to one and another as <strong>default</strong>
+for overlapping will explained on flex box z-index<br>
+when you want to change the value of each property such as width you can change it by one property. the order is from top and clockwise, example:
 
-
-</details>
-
+```css
+div {
+    border:2px 3px 4px 5px;
+}
+```
+the border size would be, from top, 2px then right side 3px and so on.
 </details>
