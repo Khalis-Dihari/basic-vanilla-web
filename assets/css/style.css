@@ -3,5 +3,33 @@ h1 {
 }
 
 p {
-    text-align: center;
+    text-align: justify ;
+}
+
+#header-2 {
+    color: gray;
+}
+
+.mark1 {
+    background-color: yellow;
+}
+
+.mark2 {
+    background-color: lightgreen;
+}
+
+h2 {
+    color: red;
+}
+
+div h2 { /* This will select all h2 elements that are inside a div element placed after h2 outside the div */
+    color: blue;
+}
+
+div ul li { /* This will select all li elements that are inside a ul element, which is inside a div element */
+    color: orange;
+}
+
+div ul li a { /* This will select all a elements that are inside an li element, which is inside a ul element, which is inside a div element */
+    color: green;
 }
